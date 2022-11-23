@@ -19,7 +19,7 @@ class CrudApplication: Application() {
                 viewModelModule,
                 useCaseModule,
                 repositoryModule,
-                remoteDataSourcemodule,
+                remoteDataSourceModule,
                 localDataSourceModule
             )
             )
