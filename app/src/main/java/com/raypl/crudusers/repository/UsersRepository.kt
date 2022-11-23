@@ -1,4 +1,6 @@
 package com.raypl.crudusers.repository
 
-class UsersRepository {
+import com.raypl.crudusers.datasource.UsersDataSource
+
+class UsersRepository (val usersDataSource: UsersDataSource){
 }

@@ -1,4 +1,4 @@
 package com.raypl.crudusers.datasource
 
-class UsersDataSource {
+class UsersDataSource (val usersAPIService: UsersAPIService) {
 }

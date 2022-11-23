@@ -1,4 +1,6 @@
 package com.raypl.crudusers.ui
 
-class UsersViewModel {
+import com.raypl.crudusers.domain.UsersUseCase
+
+class UsersViewModel(val userUseCase: UsersUseCase) {
 }

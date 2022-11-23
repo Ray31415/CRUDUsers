@@ -1,4 +1,8 @@
 package com.raypl.crudusers.domain
 
-class UsersUseCase {
-}
+data class UsersUseCase (
+    val retrieveUsersUseCase: RetrieveUsersUseCase,
+    val addUserUseCase: AddUserUseCase,
+    val editUserUseCase: EditUserUseCase,
+    val removeUserUseCase: RemoveUserUseCase
+        )
