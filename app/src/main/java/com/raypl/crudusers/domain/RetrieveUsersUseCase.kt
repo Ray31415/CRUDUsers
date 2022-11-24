@@ -5,6 +5,6 @@ import com.raypl.crudusers.repository.UsersRepository
 class RetrieveUsersUseCase(val usersRepository: UsersRepository) {
 
     suspend operator fun invoke() {
-        usersRepository.retrieveUsers()
+        usersRepository.retrieveUsers(true)
     }
 }
